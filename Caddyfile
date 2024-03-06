@@ -1,4 +1,7 @@
+## :{$PORT}
 
-##https://shiftedtime.stratum.it {
-##	reverse_proxy 147.182.145.126:9000
-##}
+## root * /srv
+## file_server
+https://shiftedtime.stratum.it {
+	reverse_proxy 147.182.145.126:9000
+}
